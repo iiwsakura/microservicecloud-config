@@ -1,15 +1,15 @@
 spring:
-  profiles:
-    active:
-    - dev
+   profiles:
+      active:
+      - dev
 ---
 spring:
-  profiles: dev
-  application:
-    name: microservicecloud-config-fanhaowen-dev
+    profiles: dev
+    application:
+        name: microservicecloud-config-fanhaowen-dev
 ---
-spring:
-  profiles: test
-  application:
-    name: microservicecloud-config-fanhaowen-test
+spring :
+    profiles: test
+    application:
+        name: microservicecloud-config-fanhaowen-test
   
