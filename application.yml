@@ -6,7 +6,7 @@ spring:
 spring:
     profiles: dev
     application:
-        name: microservicecloud-config-fanhaowen-devvv
+        name: microservicecloud-config-fanhaowen-dev
 ---
 spring :
     profiles: test
